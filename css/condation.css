@@ -1,0 +1,831 @@
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Regular.woff2') format('woff2'),
+        url('fonts/Graphik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Bold.woff2') format('woff2'),
+        url('fonts/Graphik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Medium.woff2') format('woff2'),
+        url(fonts/'Graphik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Semibold.woff2') format('woff2'),
+        url('Graphik-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+body {
+     font-family: 'Graphik' !important;
+}
+body h1 {
+
+font-weight: bold !important;
+}
+
+/*------------start of navbar ------------*/
+
+
+.navbar{
+font-weight: 600 !important;
+}
+
+.nav-style{
+    background-color: #ffffff !important;
+    padding:25px;
+    margin-bottom: 80px;
+
+}
+
+
+.logo-style{
+    margin-right: 40px;
+}
+
+.li-style{
+    margin-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+color:#000000;
+}
+
+.second-drop{
+
+min-width: 18rem;
+}
+
+
+ nav ul li a:hover{
+background-color: #ffffff;
+    color: #17bc7e !important;
+    transform: scale(1.05);
+    border-radius: 1rem;
+    
+}
+
+
+.Rectangle-btn {
+  width: 132px;
+  height: 36px;
+  border: 2px solid #17bc7e;
+  border-radius: 20px;
+  background-color: #17bc7e;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  float: left !important;
+}
+
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+
+.li-title-style{
+    display: flex;
+    padding-top: 10px;
+}
+
+
+.li-title-style img{
+    width: 20px;
+    height: 20px;
+    margin: 2px 10px 0 -10px;
+}
+
+
+.dropdown-item:active{
+     color: green;
+     background-color: white;
+
+}
+
+
+nav .Rectangle-btn a {
+    color: #f0f0f0 !important;
+    text-decoration: none;
+}
+
+
+.Rectangle-btn:hover{
+  transform: scale(1.05);
+  }
+
+
+/*-----------the end of navbar--------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*-------------the start of condition style document-------------*/
+
+.condition-title-style{
+ width: 100%;
+ height: 200px;
+ margin-top: 90px;
+ background-color: #fafafa;
+ padding-top: 35px;    
+
+
+}
+
+.text-color-condition p , .text-color-uner-theHood p {
+
+ color: #17bc7e;
+ margin-top: 30px;
+
+}
+.condition-title-content p  {
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+
+}
+.condition-title-content h5  {
+
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #0d1c3f;
+
+}
+.condition-content{
+margin-top: 75px;
+margin-bottom: 75px;
+}
+
+.condition-content p{
+  width: 85%;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.11;
+  letter-spacing: normal;
+  color: #343434;
+
+
+}
+
+
+@media only screen and (max-width:767.9px){
+
+    .condition-content p{
+    width: 100%;
+    text-align: center;
+    
+    }
+    .condition-title-style{
+    height: 250px;
+    margin-bottom:0px;
+    
+    }
+    .condition-content{
+    margin-bottom: 30px;
+    
+    }
+
+}
+/*--------------------the end of condition style document--------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------the start of under the hood documents style  and about-title  section ---------------*/
+
+
+.uner-theHood-title-style , .about-title-style , .partner-title-style , .contact-us-title-style , .request-title-style{
+     width: 100%;
+     height: 350px;
+     margin-top: 90px;
+     background-color: #fafafa;
+     padding-top: 35px;    
+    margin-bottom: 50px;
+
+    }
+
+.uner-theHood-content h5 , .text-color-about h5 ,.partner-title-content h5 , .contact-us-title-content h5{
+      width: 70%;
+      font-size: 32px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      color: #0d1c3f;
+
+    }
+
+.text-color-uner-theHood p ,.text-color-about p , .text-color-partner p  {
+    width: 60%;
+     color: #17bc7e;
+     margin-top: 30px;
+
+    }
+
+.under-theHood-content{
+
+    text-align: center;
+    margin-left: 7%;
+    }
+
+.content-hood-margin{
+    margin:75px 0px;
+
+    }
+
+
+.under-theHood-content img{
+
+       width: 40px;
+        height: 40px;
+      margin-bottom: 15px;
+       }
+
+ .under-theHood-content h5{
+        margin-bottom: 15px;
+        }
+
+ .under-theHood-content{
+        width: 85%;
+
+        }
+
+
+
+@media only screen and (max-width:768px){
+
+    .uner-theHood-title-style  {
+    height: 520px;
+    }
+
+    .uner-theHood-content h5 , .text-color-uner-theHood p , .text-color-about p , .text-color-about h5 , .text-color-partner p ,.partner-title-content h5{
+    
+    width: 100%;
+    }
+    
+    .content-hood-margin{
+    margin:10px 0px;
+
+        }
+
+    .under-theHood-content img{
+    margin-top: 40px;
+    
+    }
+   
+}
+
+
+
+
+/*----------------------the start of about-content-section style----------------------*/
+
+.about-title-style{
+height: 250px;
+
+}
+.about-content-title{
+
+  margin: 10px auto 60px;
+   font-size: 34px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0d1c3f;
+  width: 200px;
+ }
+
+.about-content img{
+     width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+.about-content h3{
+
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.92;
+  letter-spacing: normal;
+/*  text-align: center;*/
+  color: #17bc7e;
+
+}
+
+.about-content-text p{
+ width: 80%;
+ font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  color: #6f6f6f;
+}
+
+.about-content-margin{
+margin: 50px 0px;
+
+}
+
+.about-content-margin .about-content-text p{
+
+width: 90%;
+
+}
+.about-content-line{
+border-bottom: 1px #fafafa solid;
+width: 100%;
+padding-top: 50px;
+}
+
+
+.about-content-line-second{
+border-bottom: 1px #fafafa solid;
+width: 100%;
+margin-bottom: 40px;
+}
+@media only screen and (max-width:767.9px){
+
+    .about-content-text p , .about-content-margin .about-content-text p{
+    width: 100%;
+    text-align: center;
+    }
+
+     .about-reverse{
+     display: flex;
+    flex-direction: column-reverse;
+    
+    }
+    
+    
+    
+}
+
+
+
+
+
+/*------------------------------the end of about-content-section style-------------------------*/
+
+
+
+/*----------------------------------the start of partner document style--------------------- */
+
+
+
+
+
+
+
+.partner-img img {
+
+width: 100%;
+
+}
+
+
+
+/*-------------------------the end of partner document style-----------------------*/
+
+
+
+
+/*----------------------the start of contact us document style-------------------------------*/
+
+
+
+.contact-us-title-style{
+
+height: 170px;
+}
+
+
+.contact-us-form img {
+width: 100%;
+    height: 100%;
+
+} 
+.form-title-text{
+width: 70%;
+color: #343434;
+margin-bottom: 25px;
+}
+
+ .form-end-text a{
+     
+color: #f79838 !important;
+}
+
+
+.btn-success{
+width: 100%;
+
+}
+
+.contact-us-end h5{
+font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color:#0d1c3f;
+  margin: 50px 0px;
+}
+
+.about-contact-line{
+border-bottom: 2px #fafafa solid;
+width: 100%;
+padding-top: 150px;
+}
+
+
+.contact-us-end img{
+width: 100%;
+
+}
+
+@media only screen and (max-width:768px){
+
+.contact-us-form img {
+    height: 300px;
+
+} 
+  .about-contact-line{
+padding-top: 50px;
+}  
+}
+
+/*------------------------the end of contact us document style--------------------*/
+    
+
+/*
+.request-title-style{
+margin-top: 90px;
+height: 230px;
+color: #fafafa;
+}
+*/
+.request-title-style{
+height: 240px;
+}
+
+
+.rectangle-frame-video{
+  height: 170px;
+  box-shadow: 0 3px 17px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+
+}
+.circle-frame-video{
+  width: 50px;
+  height: 48px;
+  border-radius: 50%;
+  box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.08);
+  background-color:#ffffff;
+   position: absolute;
+    top: 37%;
+    left: 40%;
+}
+ .icon-frame-video{
+
+  position: absolute;
+     top: 15px;
+     left: 20px;
+}
+
+.video-frame-style
+{
+    width: 100%;
+/*    height: 300px !important;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+.shape-page{
+  margin-top: 50px ;
+  width: 100%;
+  height: 2px;
+  border-bottom: solid 1px #ededed;
+}
+
+@media only screen and (max-width:768px){
+.request-title-style{
+    height: 420px;
+
+}
+    .rectangle-frame-video{
+    margin: 40px auto;
+    
+    }
+
+}
+/*--------------------the end of under the hood document style--------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------- the start of inforomation section style-----------------*/
+
+.shape-page{
+  margin-top: 50px ;
+  width: 100%;
+  height: 2px;
+  border-bottom: solid 1px #ededed;
+}
+
+.information h2{
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0d1c3f;
+  margin-top: 50px;
+ 
+}
+
+.information p{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #6f6f6f;
+    margin-bottom: 40px;
+}
+
+.img-1{
+  width: 114px;
+  height: 35px;
+  border-radius: 38px;
+  background-color: #ffd400;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}  
+
+.img-1 img{
+margin-top: 7px;
+}
+
+
+.img-2{
+  width: 114px;
+  height: 35px;
+  border-radius: 38px;
+  background-color: #ffd400;
+    text-align: center;
+    margin-bottom: 60px;
+}  
+
+.img-2 img{
+margin-top: 7px;
+}
+
+/*-----------------the end of information section style-------------*/
+
+
+
+
+
+/*-------- the start of footer style-------*/
+
+
+
+footer {
+  background-color: #17bc7e;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+ padding-top: 50px;
+}
+
+footer ul{
+list-style-type: none;
+}
+
+footer ul li{
+margin-bottom: 8px ;
+}
+
+footer input{
+margin-top:8px;
+ margin-bottom:25px;
+  width: 180px;
+  height: 33px;
+  border-radius: 5px;
+  background-color: #109966;
+ border: 2px solid  #109966;
+}
+
+  
+
+
+.div-border{
+border-bottom: 1px solid  #09ad53 ;
+width: 70%;
+margin: auto;
+margin-top:20px;
+ margin-bottom:20px; 
+}
+
+.icon-image{
+text-align: center;
+}
+
+.icon-image img{
+margin-right:15px;
+}
+
+
+
+
+.fl-l-style p{
+display: inline-block;
+}
+
+
+.footer-end .fl-l-style p{
+margin-top: 5px;
+}
+
+.footer-end .fl-r-style p{
+  width: 41px;
+  height: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+@media only screen and (max-width:768px){
+.icon-image{
+text-align:left;
+}
+ 
+    .img-footer{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+    }
+    .fl-l-style p{
+display:block;
+        
+}
+    .footer-end img{
+    padding-bottom: 10px;
+     font-size: 12px;
+    }
+
+    footer{
+    
+    padding-top:15px;
+    
+    }
+
+}
+/*------- the end of footer style-----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
